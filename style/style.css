@@ -9,7 +9,7 @@
 }
 
 .container{
-    width: 1200px !important;
+    width: 1200px;
     margin: 0 auto;
 }
 body{
@@ -56,13 +56,8 @@ body{
     display: flex;
     justify-content: center;
 }
-.pipec{
-    display: flex;
-    justify-content: center;
-}
 .romb{
     position: absolute;
-    width: 1920px;
 }
 
 
@@ -185,4 +180,40 @@ body{
 .relax .img1{
     margin-top: 130px;
     margin-left: 160px;
+}
+
+
+
+.life{
+    background-image: url(../img/Mask\ group.png);
+    background-repeat: no-repeat;
+    background-position:center;
+    height: 1110px;
+}
+.life h1{
+    font-family: 'Merriweather';
+    color: #FFFFFF;
+    font-weight: 900;
+    font-size: 60px;
+    padding-top: 326px;
+    text-align: center;
+}
+.life p{
+    font-family: 'Lato';
+    color: #FFFFFF;
+    font-weight: 400;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    letter-spacing: 4px;
+}
+.life .play{
+    display: flex;
+    justify-content: center;
+    margin-top: 101px;
+}
+.life .imgs{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 180px;
 }
