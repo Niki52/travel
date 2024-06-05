@@ -9,7 +9,7 @@
 }
 
 .container{
-    width: 1200px;
+    width: 1200px !important;
     margin: 0 auto;
 }
 body{
@@ -17,7 +17,7 @@ body{
 }
 .head{
     background-image: url(../img/BG.png);
-    height: 1107px;
+    height: 1120px;
     background-repeat: no-repeat;
     background-position:center;
 }
@@ -56,9 +56,13 @@ body{
     display: flex;
     justify-content: center;
 }
-.romb img{
+.pipec{
+    display: flex;
+    justify-content: center;
+}
+.romb{
     position: absolute;
-    margin-left: 1px;
+    width: 1920px;
 }
 
 
@@ -75,14 +79,14 @@ body{
     font-family: 'Merriweather';
 }
 .bloc-traveling button{
-     color: #FFFFFF;
-     letter-spacing: 5px;
-     padding: 16px 24px;
-     background-color: #F87932;
-     font-size: 20px;
-     font-weight: 600;
-     margin-top: 80px;
-     margin-left: 90px;
+    color: #FFFFFF;
+    letter-spacing: 5px;
+    padding: 16px 24px;
+    background-color: #F87932;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 80px;
+    margin-left: 90px;
     transition: .5s;
 }
 .bloc-traveling button:hover{
@@ -123,4 +127,62 @@ body{
     position: absolute;
     margin-top: 484px;
     margin-left: 36px;
+}
+
+
+
+
+.relax{
+    background-image: url(../img/Route.png);
+    background-repeat: no-repeat;
+    margin-right: 0px;
+    padding-right: 0px;
+}
+.relax h2{
+    font-family: 'Lato';
+    font-weight: 500;
+    font-size: 24px;
+    color: #666666;
+    padding-top: 160px;
+    padding-left: 176px;
+}
+.relax h1{
+    font-family: 'Merriweather';
+    font-weight: 900;
+    font-size: 60px;
+    color:#222222;
+    padding-left: 176px;
+}
+.relax p{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 20px;
+    color: #333333;
+    padding-left: 176px;
+    padding-top: 40px;
+}
+.relax button{
+    color: #222222;
+    letter-spacing: 5px;
+    padding: 16px 24px;
+    background-color: #f87b3200;
+    border: 3px solid #222222;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 200px;
+    margin-left: 176px;
+    margin-bottom: 80px;
+    transition: .5s;
+}
+.relax button:hover{
+   box-shadow: #F87932 0 0 100px;
+   transition: 1s;
+   border-radius: 100px;
+}
+.relax{
+    display: flex;
+}
+.relax .img1{
+    margin-top: 130px;
+    margin-left: 160px;
 }
